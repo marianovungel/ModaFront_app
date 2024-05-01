@@ -1,0 +1,129 @@
+.FullcontentFormCad{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.FormCad{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 40px;
+}
+.imgCadForm{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.labelImgCad{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #9999997c;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px #9999993b;
+}
+.imar{
+    margin-right: 10px;
+}
+.imgFormAtual{
+    width: 100%;
+    min-width: 200px;
+    height: 200px;
+    max-height: 400px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 1px 1px #99999952;
+}
+
+.nomeFormProd{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.precoAtual{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.precoAtualFo{
+    width: 46%;
+    height: 40px;
+    padding-left: 10px;
+    color: #666;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px #99999952;
+    border: none;
+    border: 0.5 solid #99999952;
+}
+.buttonSubmitAtual{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nomeatual{
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    color: #666;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px #99999952;
+    border: none;
+    border: 0.5 solid #99999952;
+}
+.buttonFormCad{
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    color: #666;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px #99999952;
+    border: none;
+    border: 0.5 solid #99999952;
+    background-color: #69C181;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.buttonBackAbsolut{
+    position: absolute;
+    top: 13rem;
+    right: 10rem;
+    padding: 8px 11px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 11px;
+    cursor: pointer;
+    transform: scale(0.90);
+}
+.buttonBackAbsolut:hover{
+    transform: scale(1);
+    color: rgb(239, 102, 102);
+    background-color: #fff;
+    border: 1px solid #999;
+    transition: 0.3s;
+}
+.voltarForm{
+    font-size: 1.5rem;
+}
+
+
+
+.imgAtual{
+    display: none;
+}

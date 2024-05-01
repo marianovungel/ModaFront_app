@@ -1,0 +1,11 @@
+.fullConteinerHeader{
+    background-color: #d9d9d950;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgHeader{
+    height: 60px;
+}

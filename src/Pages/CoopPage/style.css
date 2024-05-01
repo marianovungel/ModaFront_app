@@ -1,0 +1,103 @@
+.fullConteinerCoopPage{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.conteinerCoop{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.sideBarCoop{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #d9d9d950;
+    padding: 10px;
+    height: calc(100vh - 150px);
+}
+.settingCoop{
+    flex: 10;
+}
+.buttonCoop{
+    background-color: #69C181;
+    width: 95%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 1px  1px 1px 1px #99999943;
+}
+.buttonCoopEdit{
+    background-color: #fff;
+    width: 95%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid #99999943;
+    cursor: pointer;
+    box-shadow: 1px  1px 1px 1px #6666;
+    margin-top: 20px;
+}
+.buttonCoopEdit:hover{
+    font-weight: 700;
+    transition: 0.3s;
+}
+.mW{
+    margin-right: 10px;
+}
+.descCoop{
+    display: flex;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.avaliacoesCoop, .enderecoCoop{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+   
+}
+.starCoop{
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #fff;
+    color: yellow;
+    border-radius: 20px;
+    padding: 10px 0px;
+    display: flex;justify-content: space-evenly;
+}
+.descEndCoop{
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #666;
+    
+}
+.numCoop{
+    color: #666;
+    font-weight: 600;
+}
+.nomeCoopCont{
+    width: 100%;
+    height: 40px;
+    background-color: #d9d9d923;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}

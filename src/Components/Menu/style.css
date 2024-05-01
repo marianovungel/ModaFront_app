@@ -1,0 +1,66 @@
+.fullContentMenu{
+    width: 100%;
+    height: 68px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #69C181;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.itensMenu, .serchMenu, .vazia{
+    flex: 4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.itemContentMenu{
+    list-style: none;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.serchMEnuInput{
+    width: 90%;
+    height: 45px;
+    padding-left: 10px;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    border: 0.5px solid #9999993c;
+    color: #999;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px 1px #9999993c;
+    border-right: none;
+}
+.serchMEnuInput::selection{
+    border: none;
+}
+.serchMenuButton{
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 47px;
+    border: none;
+    box-shadow: 1px 1px 1px 1px #9999993c;
+    border-radius: 0px 10px 10px 0px;
+    border-left: none;
+    cursor: pointer;
+}
+.trocarCor:hover{
+    color: #fff;
+    transition: 0.3s;
+}
+.imgProfileUseOrCoop{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: none;
+    border: 1px solid #fff;
+    padding: 5px;
+    box-shadow: 1px 1px 1px 1px #9999993c;
+    cursor: pointer;
+}

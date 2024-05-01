@@ -1,0 +1,241 @@
+.fullContentProdBay{
+    width: 95%;
+    height: calc(100vh - 150px);
+    margin: 10px auto 0px auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contentImgProdBay{
+    flex: 6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.prodbay{
+    width: 400px;
+    min-width: 200px;
+    height: 400px;
+    min-height: 200px;
+    border-radius: 10px;
+    border: 1px solid #999;
+    box-shadow: 1px 1px 1px 1px #D9D9D9D9;
+}
+.contentdataProdbay{
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.nome{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+.ValorNome{
+    margin-left: 20px;
+    color: #666;
+    font-weight: 600;
+    font-size: 1.15rem;
+}
+.nomePro{
+    color: #666;
+    font-size: 1.1rem;
+}
+li{
+    list-style: none;
+}
+.dinheiro{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+.vAtual{
+    color: #69C181;
+    font-size: 2rem;
+}
+.vAnte{
+    color: #ef6d5c;
+    font-size: 1rem;
+    text-decoration:line-through;
+    margin-left: 15px;
+}
+.descGrup{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+.Valordesc{
+    color: #666;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.buttonsGrup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.DeliteBuu{
+    width: 42%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 241, 86);
+    box-shadow: 1px 1px 1px 1px #999;
+    color: #ffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+.delitBoo{
+    width: 42%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ef6d5c;
+    box-shadow: 1px 1px 1px 1px #999;
+    color: #ffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+.comprar{
+    width: 100%;
+    padding-top: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #D9D9D9;
+}
+.compraValor{
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid #D9D9D9;
+    color: #666;
+    background-color: #fff;
+    margin: 10px 0px;
+    padding: 0px 5px;
+}
+.buComp{
+    width: 91%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid #D9D9D9;
+    color: #fff;
+    background-color: #69C181;
+    margin: 10px 0px;
+    font-size: 1.1rem;
+}
+.totalProduct{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 10px 0px;
+}
+.result{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px 0px 20px 0px;
+}
+.precoatualnew{
+    font-size: 17pt;
+    font-weight: 700;
+}
+.quantinew{
+    font-size: 17pt;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.resultadonew{
+    font-size: 21pt;
+    font-weight: 800;
+    color: #69C181;
+}
+.numeroquanti{
+    max-width: 90%;
+    border: none;
+    border: 0.5px solid #999;
+    color: #666;
+    border-radius: 10px;
+    padding: 5px;
+    width: 80%;
+    height: 45px;
+}
+.buttonSetValors{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.setAllValors{
+    max-width: 18%;
+    padding: 5px 0px;
+    width: 15%;
+    height: 45px;
+    background-color: #69C181;
+    color: #fff;
+    border-radius: 10px;
+    display: flex;justify-content: center;
+    align-items: center;
+    border: none;
+    box-shadow: 1px 1px 1px 1px #D9D9D9;
+    cursor: pointer;
+}
+#bayCArd{
+    flex: 6;
+    height: 400px;
+    display: flex;flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.marginCardBay{
+    margin: 0px 10px;
+}
+.ComprarAgoraClass{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ppay{
+    width: 100%;
+    height: 45px;
+    margin-top: 85px;
+}
+.ComprarAgora{
+    width: 100%;
+    height: 45px;
+    display: flex;justify-content: center;
+    align-items: center;
+    background-color: #69C181;
+    color: #fff;
+    font-weight: 800;
+    border: none;
+    box-shadow: 1px 1px 1px 1px #666;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 1.1rem;
+}

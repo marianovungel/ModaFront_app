@@ -1,0 +1,75 @@
+.fullContenUser{
+    width: 55%;
+    height: 400px;
+    margin: 100px auto 0px auto;
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 0px;
+}
+.compartilhamentoDivulgacoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+}
+.compartilharDiv{
+    width: 90%;
+    margin: 15px auto 10px auto;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+.compartilharDiv::-webkit-scrollbar{
+    display: none;
+    
+}
+
+.buttomGrupe{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -85px;
+}
+.buttomLeft{
+    cursor: pointer;
+}
+.widthIconButtom{
+    font-size: 25pt;
+}
+.margnLeft{
+    margin-right: 40px;
+}
+.marginRight{
+    margin-left: 40px;
+}
+.titleColor{
+    margin: 0px 15px 0px 15px;
+    cursor: pointer;
+    background-color: #99999921;
+    padding: 15px;
+    border-radius: 8px;
+}
+.vendaDivulgacoes{
+    width: 90%;
+    margin: 30px auto 0px auto;
+}
+
+
+.sizePhoto{
+    width: 70px;height: 70px;
+    border-radius: 100%;
+}
+.nomePreco{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.valorNome{
+    text-align: center;
+    color: #666;
+}
+.borderIcon{
+    border: none;
+    border-radius: 100%;
+}
