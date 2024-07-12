@@ -17,13 +17,14 @@ export default function SingleProduct() {
     const { user } = useContext(Context)
 
     useEffect(()=>{
-        const getCoopProduct = async(idcoop)=>{
-            const response = await axios.get(`http://localhost:8000/coop/${idcoop}`)
+        const getCoopProduct = async(agencia_id)=>{
+            const response = await axios.get(`http://localhost:8000/agencia/${agencia_id}`)
             setCoop(response.data)
         }
         const getProdct = async()=>{
-            const res = await axios.get(`http://localhost:8000/product/${path}`)
-            getCoopProduct(res.data.idcoop)
+            const res = await axios.get(`http://localhost:8000/modelo/${path}`)
+            console.log(res.data)
+            getCoopProduct(res.data.agencia_id)
             setData(res.data)
             
         }
@@ -60,12 +61,18 @@ export default function SingleProduct() {
                     <div className="enderecoCoop">
                         <span className="textCoop">Endereço</span>
                         <div className="descEndCoop">
-                            {coop?.sobre}
+                            {coop?.ende_cidade}
+                        </div>
+                    </div>
+                    <div className="enderecoCoop">
+                        <span className="textCoop">Whatsapp</span>
+                        <div className="descEndCoop">
+                            {coop?.whatsapp}
                         </div>
                     </div>
                     <div className="avaliacoesCoop">
                         <span className="textCoop">Horário</span>
-                        <div className="descEndCoop">{coop?.horario}</div>
+                        <div className="descEndCoop">{coop?.hora_abrir ? coop?.hora_abrir : "00 : 00"} à {coop?.hora_feichar ? coop?.hora_feichar : "00 : 00"}</div>
                     </div>
                 </div>
                 {user?._id === data.idcoop && (

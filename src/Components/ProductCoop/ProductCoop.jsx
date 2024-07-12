@@ -2,14 +2,15 @@ import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import './style.css'
-const host = "http://localhost:8000/"
+// const host = "http://localhost:8000/"
 
 export default function ProductCoop({text, path}) {
     const [data, setData] = useState([])
 
     useEffect(()=>{
         const getData = async()=>{
-            const res = await axios.get(`http://localhost:8000/product/coop/${path}`)
+            const res = await axios.get(`http://localhost:8000/modelo/pesquisa/${path}`)
+            console.log(res.data)
             setData(res.data)
         }
         getData()
@@ -21,11 +22,11 @@ export default function ProductCoop({text, path}) {
         <div className="productContent">
             {data.map((data)=>(
                 <Link to={`/produto/${data?._id}`} className="cardProductNew" key={data?._id}>
-                <img src={host+data?.profilePic} alt="" className="imgCardProductnew" />
+                <img src={data?.profilePic} alt="" className="imgCardProductnew" />
                 <h6 className="nameProductNew">{data?.nome}</h6>
                 <div className="precoCardNew">
-                    <span className="PrecoProductnew atualnew">R ${data?.precoatual}</span>
-                    <span className="PrecoProductnew deshednew">R ${data?.precoanterior}</span>
+                    <span className="PrecoProductnew atualnew">R ${data?.preco}</span>
+                    <span className="PrecoProductnew deshednew">R ${data?.preco}</span>
                 </div>
             </Link>
             ))}

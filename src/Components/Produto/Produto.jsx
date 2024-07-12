@@ -21,8 +21,8 @@ export default function Produto({text, datad}) {
                     <img src={data?.profilePic} alt="" className="imgCardProductnew" />
                     <h6 className="nameProductNew">{data?.nome}</h6>
                     <div className="precoCardNew">
-                        <span className="PrecoProductnew atualnew">R ${data?.precoatual}</span>
-                        <span className="PrecoProductnew deshednew">R ${data?.precoanterior}</span>
+                        <span className="PrecoProductnew atualnew">R ${data?.preco}</span>
+                        <span className="PrecoProductnew deshednew">R ${data?.preco}</span>
                     </div>
                 </Link>
             ))}

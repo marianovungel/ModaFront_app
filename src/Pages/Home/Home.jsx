@@ -11,7 +11,8 @@ export default function Home() {
 
   useEffect(()=>{
     const getData = async()=>{
-        const res = await axios.get("http://localhost:8000/product")
+        const res = await axios.get("http://localhost:8000/modelo")
+        // console.log(res.data)
         setDatad(res.data)
     }
     getData()

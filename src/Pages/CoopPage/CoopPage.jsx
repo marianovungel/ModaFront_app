@@ -29,7 +29,7 @@ export default function CoopPage() {
 
     useEffect(()=>{
         const getCoop = async()=>{
-            const res = await axios.get(`http://localhost:8000/coop/${path}`)
+            const res = await axios.get(`http://localhost:8000/agencia/${path}`)
             setCoop(res.data)
         }
         getCoop()

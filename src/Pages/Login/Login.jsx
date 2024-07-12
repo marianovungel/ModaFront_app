@@ -3,7 +3,7 @@ import React, { useContext, useState } from 'react'
 import Swal from 'sweetalert2'
 import { Context } from '../../Context/Context'
 import './style.css'
-const host = "http://localhost:8000/"
+// const host = "http://localhost:8000/"
 
 
 export default function Login() {
@@ -112,7 +112,7 @@ export default function Login() {
         </div>
         <div className="loginForm">
             <div className="logo">
-                <img src={`${host}uploads/logo-sem-fundo.png`} alt="" className="logoLoginImg" />
+                <img src="../logoPrin.png" alt="" className="logoLoginImg" />
             </div>
             {create === "Coop" ? (<h1 className="Login">Login</h1>):(
                 <h1 className="Login">Cadastrar</h1>

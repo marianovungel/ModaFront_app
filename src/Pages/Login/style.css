@@ -8,7 +8,9 @@
     margin: 0px;
     padding: 0px;
 }
-
+.logoLoginImg{
+    height: 150px;
+}
 .imgContentLogin2{
     flex: 6;
     margin: 0px;
@@ -70,7 +72,7 @@
     margin-right: -40px;
     width: 70px;
     height: 70px;
-    background-color: #69C181;
+    background-color: #D2CC56;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -118,13 +120,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #69C181;
+    background-color: #D2CC56;
     border-top-left-radius: 20px;
     color: #fff;
     font-weight: 500;
 }
 #cooperativaLogin{
-    background-color: #69C181;
+    background-color: #D2CC56;
     color: #fff;
     font-weight: 500;
 }
@@ -162,7 +164,7 @@
     padding-left: 20px;
 }
 .btnLogin{
-    background-color: #69C181;
+    background-color: #D2CC56;
     color: #000;
     font-weight: 700;
     font-size: 15pt;

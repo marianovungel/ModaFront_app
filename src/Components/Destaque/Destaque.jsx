@@ -12,7 +12,7 @@ export default function Destaque() {
 
     useEffect(()=>{
         const getData = async()=>{
-            const res = await axios.get("http://localhost:8000/coop")
+            const res = await axios.get("http://localhost:8000/agencia")
             setData(res.data)
             setVendaVazia(false)
         }
