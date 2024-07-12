@@ -34,10 +34,11 @@ export default function Login() {
     }
     const CadastrarCoop = async()=>{
         try {
-            await axios.post("http://localhost:8000/coop/criar",{
+            await axios.post("http://localhost:8000/agencia/criar",{
                 nome: user,
                 senha: senha,
-                cnpj: cpf
+                cnpj: cpf,
+                logo:"https://i.pinimg.com/474x/11/73/e3/1173e32890c0f9fab846b7218c7f3aa9.jpg"
             })
             Swal.fire({
                 position: 'center',
@@ -53,13 +54,12 @@ export default function Login() {
     }
     const CadastrarUser = async()=>{
         try {
-            const coopUse = await axios.post("http://localhost:8000/auth/criar",{
+            await axios.post("http://localhost:8000/auth/criar",{
                 username: user,
                 password: senha,
                 cpf: cpf,
                 email: ""
             })
-            console.log(coopUse)
             Swal.fire({
                 position: 'center',
                 icon: 'success',
@@ -77,7 +77,7 @@ export default function Login() {
         e.preventDefault();
         dispatch({ type: "LOGIN_START"})
         try{
-            const res = await axios.post("http://localhost:8000/coop/login", {
+            const res = await axios.post("http://localhost:8000/agencia/login", {
                 nome: user,
                 senha: senha,
             })

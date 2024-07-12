@@ -10,6 +10,7 @@ import SingleProduct from './Pages/SingleProduct/SingleProduct';
 import Pay from './Pages/Pay/Pay';
 import PaySuccess from './Pages/Pay/PaySuccess';
 import UsePage from './Pages/UsePage/UsePage';
+import AddModele from './Pages/AddModele/AddModele';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
             <Route path="/user/:id" element={user ? <UsePage /> : <Login />} exact />
             <Route path="/pay" element={user ? <Pay /> : <Login />} exact />
             <Route path="/success" element={user ? <PaySuccess /> : <Login />} exact />
+            <Route path="/addmodele" element={user ? <AddModele /> : <Login />} exact />
           </Routes>
         </Router>
     </div>
